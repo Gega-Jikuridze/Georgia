@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+
+/* ///////////////////////////////////////// */
+/* header  */
+
+header{
+    background-color: rgb(192, 0, 0);
+    box-shadow: 3px 3px 3px white;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.logo a{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    border: 3px solid white;
+    padding: 3px;
+}
+
+.logo{
+    transition: .2s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .2s;
+    padding: 3px 10px;
+}
+
+
+.nav a:hover{
+    transform: translateY(7px);
+}
+
+
+
+/* /////////////////////////////////////// */
+/* footer  */
+
+footer{
+    background-color: rgb(192, 0, 0);
+    box-shadow: -3px -3px 3px white;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* /////////////////////////////////////// */
+/* log form  */
+
+.log-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    background-color: rgb(192, 0, 0);
+    box-shadow: 3px 3px 3px white;
+    border-radius: 20px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////// */
+
+.travel-cards{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.travel-card{
+    max-width: 300px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(192, 0, 0);
+    transition: .2s;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.travel-card:hover a{
+   
+    transform: scale(1.2);
+}
+
+.travel-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px white;
+}
+
+.travel-card h1{
+    color: white;
+}
+
+.travel-card h2{
+    color: white;
+}
+
+
+.travel-card a{
+    color: rgb(192, 0, 0);
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+    transition: .2s;
+}
+
+/* error  */
+.error{
+    color: rgb(192, 0, 0);
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5px;
+    border: 3px solid rgb(192, 0, 0);
+    border-radius: 20px;
+}
+
+
+
+/* search  */
+
+.search{
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
